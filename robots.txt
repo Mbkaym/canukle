@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.dailycode.com.ng/sitemap.xml

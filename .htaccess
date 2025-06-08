@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# Redirect /phoodle to /phoodle/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !/$
+RewriteRule ^(.*[^/])$ https://www.dailycode.com.ng/$1/ [R=301,L]
